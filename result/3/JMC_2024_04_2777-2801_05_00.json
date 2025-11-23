@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_04_2777-2801_05_00.png",
+    "height": 332,
+    "width": 575
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            10,
+            27
+          ],
+          [
+            11,
+            240
+          ],
+          [
+            238,
+            234
+          ],
+          [
+            222,
+            74
+          ],
+          [
+            204,
+            28
+          ],
+          [
+            10,
+            27
+          ]
+        ],
+        "smiles": "*n1cc(Nc2nc(Nc3cccc(NC(=O)C=C)c3)c3cc(Cl)ccc3n2)cn1 |$R4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;$|",
+        "bbox": [
+          3,
+          15,
+          253,
+          246
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "21a, R4=ethyl",
+        "confidence": 0.7992417216300964,
+        "polygon": [
+          [
+            257.0,
+            40.0
+          ],
+          [
+            390.0,
+            41.0
+          ],
+          [
+            390.0,
+            63.0
+          ],
+          [
+            257.0,
+            62.0
+          ]
+        ]
+      },
+      {
+        "text": "21b, R4=tertiary butyl",
+        "confidence": 0.975323498249054,
+        "polygon": [
+          [
+            257.0,
+            69.0
+          ],
+          [
+            461.0,
+            69.0
+          ],
+          [
+            461.0,
+            91.0
+          ],
+          [
+            257.0,
+            91.0
+          ]
+        ]
+      },
+      {
+        "text": "21c, R4=methoxyethyl",
+        "confidence": 0.9498528838157654,
+        "polygon": [
+          [
+            257.0,
+            97.0
+          ],
+          [
+            469.0,
+            97.0
+          ],
+          [
+            469.0,
+            119.0
+          ],
+          [
+            257.0,
+            120.0
+          ]
+        ]
+      },
+      {
+        "text": "21d, R4=trifluoro ethyl",
+        "confidence": 0.9735965728759766,
+        "polygon": [
+          [
+            257.0,
+            127.0
+          ],
+          [
+            467.0,
+            124.0
+          ],
+          [
+            467.0,
+            146.0
+          ],
+          [
+            257.0,
+            149.0
+          ]
+        ]
+      },
+      {
+        "text": "21e, R4=phenyl",
+        "confidence": 0.8295835852622986,
+        "polygon": [
+          [
+            257.0,
+            154.0
+          ],
+          [
+            407.0,
+            154.0
+          ],
+          [
+            407.0,
+            177.0
+          ],
+          [
+            257.0,
+            177.0
+          ]
+        ]
+      },
+      {
+        "text": "21f, R4=benzyl",
+        "confidence": 0.8242650628089905,
+        "polygon": [
+          [
+            257.0,
+            183.0
+          ],
+          [
+            402.0,
+            183.0
+          ],
+          [
+            402.0,
+            205.0
+          ],
+          [
+            257.0,
+            205.0
+          ]
+        ]
+      },
+      {
+        "text": "21g, R2=4-morpholinyl",
+        "confidence": 0.9403373003005981,
+        "polygon": [
+          [
+            257.0,
+            211.0
+          ],
+          [
+            472.0,
+            211.0
+          ],
+          [
+            472.0,
+            234.0
+          ],
+          [
+            257.0,
+            234.0
+          ]
+        ]
+      },
+      {
+        "text": "21h, R2=1-methylpiperidine-4-yl",
+        "confidence": 0.9625253677368164,
+        "polygon": [
+          [
+            257.0,
+            240.0
+          ],
+          [
+            561.0,
+            239.0
+          ],
+          [
+            561.0,
+            261.0
+          ],
+          [
+            257.0,
+            262.0
+          ]
+        ]
+      },
+      {
+        "text": "21a-j",
+        "confidence": 0.6593188643455505,
+        "polygon": [
+          [
+            73.0,
+            266.0
+          ],
+          [
+            125.0,
+            266.0
+          ],
+          [
+            125.0,
+            288.0
+          ],
+          [
+            73.0,
+            288.0
+          ]
+        ]
+      },
+      {
+        "text": "21i, R4=2-morpholinoethyl",
+        "confidence": 0.9586789011955261,
+        "polygon": [
+          [
+            256.0,
+            268.0
+          ],
+          [
+            507.0,
+            269.0
+          ],
+          [
+            507.0,
+            291.0
+          ],
+          [
+            256.0,
+            290.0
+          ]
+        ]
+      },
+      {
+        "text": "21j, R4=H",
+        "confidence": 0.6634207963943481,
+        "polygon": [
+          [
+            257.0,
+            295.0
+          ],
+          [
+            354.0,
+            298.0
+          ],
+          [
+            353.0,
+            321.0
+          ],
+          [
+            256.0,
+            318.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "21a",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(CC)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "ethyl",
+            "smiles": "*CC"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21b",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(C(C)(C)C)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "tertiary-butyl",
+            "smiles": "*C(C)(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21c",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(CCOC)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "methoxyethyl",
+            "smiles": "*CCOC"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21d",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(CC(F)(F)F)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "trifluoro-ethyl",
+            "smiles": "*CC(F)(F)F"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21e",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(-c4ccccc4)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "phenyl",
+            "smiles": "*c1ccccc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21f",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(Cc4ccccc4)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "benzyl",
+            "smiles": "*Cc1ccccc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21g",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(N4CCOCC4)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "4-morpholinyl",
+            "smiles": "*N1CCOCC1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21h",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(C4CCN(C)CC4)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "1-methylpiperidine-4-yl",
+            "smiles": "*C1CCN(C)CC1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21i",
+        "smiles": "C=CC(=O)Nc1cccc(Nc2nc(Nc3cnn(CCN4CCOCC4)c3)nc3ccc(Cl)cc23)c1",
+        "r_groups": {
+          "R4": {
+            "abbr": "2-morpholinoethyl",
+            "smiles": "*CCN1CCOCC1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21j",
+        "smiles": "[H]n1cc(Nc2nc(Nc3cccc(NC(=O)C=C)c3)c3cc(Cl)ccc3n2)cn1",
+        "r_groups": {
+          "R4": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      }
+    ]
+  }
+}

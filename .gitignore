@@ -1,0 +1,16 @@
+*.log
+*.pyc
+*.txt
+*.zip
+
+temp
+tmp
+
+!/README.md
+!/requirements.txt
+
+.idea/
+.vscode/
+
+__pycache__/
+.pytest_cache/

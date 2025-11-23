@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_02_1168-1183_02_00.png",
+    "height": 221,
+    "width": 207
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            10,
+            13
+          ],
+          [
+            16,
+            125
+          ],
+          [
+            173,
+            119
+          ],
+          [
+            181,
+            88
+          ],
+          [
+            173,
+            14
+          ],
+          [
+            143,
+            8
+          ],
+          [
+            10,
+            13
+          ]
+        ],
+        "smiles": "*c1ncc(Br)cc1C(=O)O |$R1;;;;;;;;;;$|",
+        "bbox": [
+          9,
+          4,
+          194,
+          124
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "8a: R1=OMe;",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            57.0,
+            153.0
+          ],
+          [
+            189.0,
+            155.0
+          ],
+          [
+            188.0,
+            178.0
+          ],
+          [
+            56.0,
+            177.0
+          ]
+        ]
+      },
+      {
+        "text": "8b: R1=H;",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            57.0,
+            185.0
+          ],
+          [
+            158.0,
+            187.0
+          ],
+          [
+            158.0,
+            211.0
+          ],
+          [
+            56.0,
+            209.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "8a",
+        "smiles": "COc1ncc(Br)cc1C(=O)O",
+        "r_groups": {
+          "R1": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "8b",
+        "smiles": "[H]c1ncc(Br)cc1C(=O)O",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      }
+    ]
+  }
+}

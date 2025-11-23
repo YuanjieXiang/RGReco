@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_349-379_02_00.png",
+    "height": 406,
+    "width": 286
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            74,
+            11
+          ],
+          [
+            76,
+            113
+          ],
+          [
+            203,
+            114
+          ],
+          [
+            215,
+            106
+          ],
+          [
+            216,
+            30
+          ],
+          [
+            209,
+            10
+          ],
+          [
+            74,
+            11
+          ]
+        ],
+        "smiles": "*c1c(F)ccc(C2(*)CCCC2)c1* |$R2;;;;;;;;X;;;;;;R1$|",
+        "bbox": [
+          68,
+          3,
+          217,
+          116
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "28a, R1 = Cl, R2 = H, X = OH",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            133.0
+          ],
+          [
+            254.0,
+            134.0
+          ],
+          [
+            254.0,
+            154.0
+          ],
+          [
+            7.0,
+            153.0
+          ]
+        ]
+      },
+      {
+        "text": "28b, R1 = OCH3, R2 = H, X = OH",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            7.0,
+            164.0
+          ],
+          [
+            284.0,
+            160.0
+          ],
+          [
+            286.0,
+            187.0
+          ],
+          [
+            8.0,
+            187.0
+          ]
+        ]
+      },
+      {
+        "text": "28c, R1 = H, R2 = F, X = OH",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            191.0
+          ],
+          [
+            247.0,
+            192.0
+          ],
+          [
+            247.0,
+            211.0
+          ],
+          [
+            7.0,
+            210.0
+          ]
+        ]
+      },
+      {
+        "text": "28d, R1 = H, R2 = Cl, X = OH",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            219.0
+          ],
+          [
+            253.0,
+            219.0
+          ],
+          [
+            253.0,
+            240.0
+          ],
+          [
+            8.0,
+            240.0
+          ]
+        ]
+      },
+      {
+        "text": "29a, R1 = Cl, R2 = H, X = N3",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            292.0
+          ],
+          [
+            246.0,
+            294.0
+          ],
+          [
+            247.0,
+            318.0
+          ],
+          [
+            7.0,
+            311.0
+          ]
+        ]
+      },
+      {
+        "text": "29b, R1 = OCH2, R2 = H, X= N3",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            7.0,
+            322.0
+          ],
+          [
+            276.0,
+            320.0
+          ],
+          [
+            277.0,
+            348.0
+          ],
+          [
+            8.0,
+            344.0
+          ]
+        ]
+      },
+      {
+        "text": "29c, R1 = H, R2 = F, X = N3",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            349.0
+          ],
+          [
+            239.0,
+            351.0
+          ],
+          [
+            239.0,
+            375.0
+          ],
+          [
+            7.0,
+            369.0
+          ]
+        ]
+      },
+      {
+        "text": "29d, R1 = H, R2 = Cl, X = N3",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            376.0
+          ],
+          [
+            246.0,
+            380.0
+          ],
+          [
+            246.0,
+            404.0
+          ],
+          [
+            7.0,
+            397.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "28a",
+        "smiles": "[H]c1c(F)ccc(C2(O)CCCC2)c1Cl",
+        "r_groups": {
+          "R1": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "X": {
+            "abbr": "OH",
+            "smiles": "[OH]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "28b",
+        "smiles": "[H]c1c(F)ccc(C2(O)CCCC2)c1OC",
+        "r_groups": {
+          "R1": {
+            "abbr": "OCH3",
+            "smiles": "C[O]"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "X": {
+            "abbr": "OH",
+            "smiles": "[OH]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "28c",
+        "smiles": "[H]c1c(C2(O)CCCC2)ccc(F)c1F",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R2": {
+            "abbr": "F",
+            "smiles": "[F]"
+          },
+          "X": {
+            "abbr": "OH",
+            "smiles": "[OH]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "28d",
+        "smiles": "[H]c1c(C2(O)CCCC2)ccc(F)c1Cl",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R2": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "X": {
+            "abbr": "OH",
+            "smiles": "[OH]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "29a",
+        "smiles": "[H]c1c(F)ccc(C2(N=[N+]=[N-])CCCC2)c1Cl",
+        "r_groups": {
+          "R1": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "X": {
+            "abbr": "N3",
+            "smiles": "[N]=[N+]=[N-]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "29b",
+        "smiles": "[H]c1c(F)ccc(C2(N=[N+]=[N-])CCCC2)c1CO",
+        "r_groups": {
+          "R1": {
+            "abbr": "OCH2",
+            "smiles": "[CH2][O]"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "X": {
+            "abbr": "N3",
+            "smiles": "[N]=[N+]=[N-]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "29c",
+        "smiles": "[H]c1c(C2(N=[N+]=[N-])CCCC2)ccc(F)c1F",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R2": {
+            "abbr": "F",
+            "smiles": "[F]"
+          },
+          "X": {
+            "abbr": "N3",
+            "smiles": "[N]=[N+]=[N-]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "29d",
+        "smiles": "[H]c1c(C2(N=[N+]=[N-])CCCC2)ccc(F)c1Cl",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R2": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "X": {
+            "abbr": "N3",
+            "smiles": "[N]=[N+]=[N-]"
+          }
+        }
+      }
+    ]
+  }
+}

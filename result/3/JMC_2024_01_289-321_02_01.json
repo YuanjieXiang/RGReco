@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_289-321_02_01.png",
+    "height": 201,
+    "width": 176
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            28,
+            13
+          ],
+          [
+            26,
+            104
+          ],
+          [
+            138,
+            104
+          ],
+          [
+            142,
+            49
+          ],
+          [
+            136,
+            14
+          ]
+        ],
+        "smiles": "*c1cc(*)c(C(C)=O)c(O)c1 |$R;;;;R2;;;;;;;$|",
+        "bbox": [
+          20,
+          6,
+          148,
+          109
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "3a R1 = OMe, R2 = OMe",
+        "confidence": 0.9847403764724731,
+        "polygon": [
+          [
+            4.0,
+            159.0
+          ],
+          [
+            163.0,
+            158.0
+          ],
+          [
+            163.0,
+            175.0
+          ],
+          [
+            4.0,
+            176.0
+          ]
+        ]
+      },
+      {
+        "text": "3b R1 = OBn, R2 = OMe",
+        "confidence": 0.9864219427108765,
+        "polygon": [
+          [
+            4.0,
+            179.0
+          ],
+          [
+            161.0,
+            179.0
+          ],
+          [
+            161.0,
+            196.0
+          ],
+          [
+            4.0,
+            196.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "3a",
+        "smiles": "COc1cc(O)c(C(C)=O)c(OC)c1",
+        "r_groups": {
+          "R2": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          },
+          "R": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "3b",
+        "smiles": "COc1cc(OCc2ccccc2)cc(O)c1C(C)=O",
+        "r_groups": {
+          "R2": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          },
+          "R": {
+            "abbr": "OBn",
+            "smiles": "[O]Cc1ccccc1"
+          }
+        }
+      }
+    ]
+  }
+}

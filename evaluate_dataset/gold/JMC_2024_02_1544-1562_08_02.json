@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_02_1544-1562_08_02.png",
+    "height": 472,
+    "width": 345
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            30,
+            14
+          ],
+          [
+            35,
+            160
+          ],
+          [
+            290,
+            160
+          ],
+          [
+            288,
+            26
+          ],
+          [
+            276,
+            11
+          ],
+          [
+            30,
+            14
+          ]
+        ],
+        "smiles": "*N(*)C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O |$R2;;R1;;;;;;;;;;;;;;;;;;$|",
+        "is_candidate": true,
+        "bbox": [
+          24,
+          0,
+          300,
+          167
+        ],
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "R1 = 3-AcPh, R2 = H: 1",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            9.0,
+            199.0
+          ],
+          [
+            237.0,
+            201.0
+          ],
+          [
+            237.0,
+            222.0
+          ],
+          [
+            8.0,
+            220.0
+          ]
+        ]
+      },
+      {
+        "text": "R1 = Ph, R2 = H: 2",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            9.0,
+            228.0
+          ],
+          [
+            195.0,
+            230.0
+          ],
+          [
+            194.0,
+            252.0
+          ],
+          [
+            8.0,
+            250.0
+          ]
+        ]
+      },
+      {
+        "text": "R1 = Me, R2 = H: 3",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            259.0
+          ],
+          [
+            196.0,
+            259.0
+          ],
+          [
+            196.0,
+            280.0
+          ],
+          [
+            8.0,
+            280.0
+          ]
+        ]
+      },
+      {
+        "text": "R1 = Ph, R2 = Me: 4",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            289.0
+          ],
+          [
+            208.0,
+            287.0
+          ],
+          [
+            208.0,
+            308.0
+          ],
+          [
+            9.0,
+            310.0
+          ]
+        ]
+      },
+      {
+        "text": "R1 = 3-pyridyl, R2 = H: 5",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            9.0,
+            316.0
+          ],
+          [
+            250.0,
+            318.0
+          ],
+          [
+            250.0,
+            339.0
+          ],
+          [
+            8.0,
+            338.0
+          ]
+        ]
+      },
+      {
+        "text": "R1 = 4-pyrimidyl, R2 = H: 6",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            346.0
+          ],
+          [
+            274.0,
+            347.0
+          ],
+          [
+            274.0,
+            368.0
+          ],
+          [
+            8.0,
+            367.0
+          ]
+        ]
+      },
+      {
+        "text": "R1 = 3-phenol, R2 = H: 7",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            9.0,
+            375.0
+          ],
+          [
+            252.0,
+            376.0
+          ],
+          [
+            252.0,
+            397.0
+          ],
+          [
+            8.0,
+            396.0
+          ]
+        ]
+      },
+      {
+        "text": "R1 = 3-Boc-piperidyl, R2 = H: 40",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            9.0,
+            403.0
+          ],
+          [
+            327.0,
+            405.0
+          ],
+          [
+            327.0,
+            427.0
+          ],
+          [
+            8.0,
+            425.0
+          ]
+        ]
+      },
+      {
+        "text": "R1 = 3-piperidyl, R2 = H: 8",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            9.0,
+            433.0
+          ],
+          [
+            269.0,
+            435.0
+          ],
+          [
+            269.0,
+            456.0
+          ],
+          [
+            9.0,
+            454.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "1",
+        "smiles": "[H]N(C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O)c1cccc(C(C)=O)c1",
+        "r_groups": {
+          "R1": {
+            "abbr": "3-AcPh",
+            "smiles": "*c1cccc(C(C)=O)c1"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "2",
+        "smiles": "[H]N(C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O)c1ccccc1",
+        "r_groups": {
+          "R1": {
+            "abbr": "Ph",
+            "smiles": "*c1ccccc1"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "3",
+        "smiles": "[H]N(C)C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O",
+        "r_groups": {
+          "R1": {
+            "abbr": "Me",
+            "smiles": "*C"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "4",
+        "smiles": "CCc1nn(CC(=O)N(C)c2ccccc2)c(=O)c2cc3sccc3n12",
+        "r_groups": {
+          "R1": {
+            "abbr": "Ph",
+            "smiles": "*c1ccccc1"
+          },
+          "R2": {
+            "abbr": "Me",
+            "smiles": "*C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "5",
+        "smiles": "[H]N(C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O)c1cccnc1",
+        "r_groups": {
+          "R1": {
+            "abbr": "3-pyridyl",
+            "smiles": "*c1cccnc1"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "6",
+        "smiles": "[H]N(C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O)c1ccncn1",
+        "r_groups": {
+          "R1": {
+            "abbr": "4-pyrimidyl",
+            "smiles": "*c1ccncn1"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7",
+        "smiles": "[H]N(C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O)c1cccc(O)c1",
+        "r_groups": {
+          "R1": {
+            "abbr": "3-phenol",
+            "smiles": "*c1cccc(O)c1"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "8",
+        "smiles": "[H]N(C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O)C1CCCNC1",
+        "r_groups": {
+          "R1": {
+            "abbr": "3-piperidyl",
+            "smiles": "*C1CCCNC1"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "40",
+        "smiles": "[H]N(C(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O)N1CCCC(C(=O)OCCCC)C1",
+        "r_groups": {
+          "R1": {
+            "abbr": "3-Boc-piperidyl",
+            "smiles": "*N1CCCC(C(=O)OCCCC)C1"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      }
+    ]
+  }
+}

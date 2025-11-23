@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_02_1168-1183_02_01.png",
+    "height": 217,
+    "width": 220
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            7,
+            11
+          ],
+          [
+            11,
+            122
+          ],
+          [
+            188,
+            118
+          ],
+          [
+            206,
+            96
+          ],
+          [
+            210,
+            9
+          ]
+        ],
+        "smiles": "*c1ncc(Br)cc1C(=O)OCC |$R1;;;;;;;;;;;;$|",
+        "bbox": [
+          4,
+          1,
+          219,
+          121
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "9a: R1=OMe;",
+        "confidence": 0.9778212308883667,
+        "polygon": [
+          [
+            41.0,
+            145.0
+          ],
+          [
+            172.0,
+            147.0
+          ],
+          [
+            172.0,
+            170.0
+          ],
+          [
+            40.0,
+            169.0
+          ]
+        ]
+      },
+      {
+        "text": "9b: R1=H;",
+        "confidence": 0.9544020891189575,
+        "polygon": [
+          [
+            41.0,
+            176.0
+          ],
+          [
+            142.0,
+            178.0
+          ],
+          [
+            142.0,
+            202.0
+          ],
+          [
+            41.0,
+            200.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "9a",
+        "smiles": "CCOC(=O)c1cc(Br)cnc1OC",
+        "r_groups": {
+          "R1": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "9b",
+        "smiles": "[H]c1ncc(Br)cc1C(=O)OCC",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      }
+    ]
+  }
+}

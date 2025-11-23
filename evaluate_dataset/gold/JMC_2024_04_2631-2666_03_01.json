@@ -1,0 +1,544 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_04_2631-2666_03_01.png",
+    "height": 403,
+    "width": 380
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            106,
+            28
+          ],
+          [
+            6,
+            34
+          ],
+          [
+            8,
+            259
+          ],
+          [
+            101,
+            254
+          ],
+          [
+            111,
+            121
+          ],
+          [
+            106,
+            28
+          ]
+        ],
+        "smiles": "*[C@@H](N)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1 |$R;;;;;;;;;;;;;;;;;;;;$|",
+        "is_candidate": true,
+        "bbox": [
+          7,
+          26,
+          117,
+          267
+        ],
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "7 R = CH2OH",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            160.0,
+            12.0
+          ],
+          [
+            280.0,
+            16.0
+          ],
+          [
+            279.0,
+            37.0
+          ],
+          [
+            159.0,
+            34.0
+          ]
+        ]
+      },
+      {
+        "text": "8 R = i-Pr",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            159.0,
+            40.0
+          ],
+          [
+            246.0,
+            41.0
+          ],
+          [
+            246.0,
+            60.0
+          ],
+          [
+            159.0,
+            60.0
+          ]
+        ]
+      },
+      {
+        "text": "9 R = t-Bu",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            159.0,
+            67.0
+          ],
+          [
+            250.0,
+            67.0
+          ],
+          [
+            250.0,
+            86.0
+          ],
+          [
+            159.0,
+            86.0
+          ]
+        ]
+      },
+      {
+        "text": "10 R = CH((R)-Me)-Et",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            159.0,
+            92.0
+          ],
+          [
+            353.0,
+            93.0
+          ],
+          [
+            353.0,
+            114.0
+          ],
+          [
+            159.0,
+            113.0
+          ]
+        ]
+      },
+      {
+        "text": "11 R = CH2Ph",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            160.0,
+            118.0
+          ],
+          [
+            285.0,
+            121.0
+          ],
+          [
+            285.0,
+            142.0
+          ],
+          [
+            159.0,
+            138.0
+          ]
+        ]
+      },
+      {
+        "text": "13 R = CH2Ph-4-OH",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            160.0,
+            144.0
+          ],
+          [
+            339.0,
+            147.0
+          ],
+          [
+            338.0,
+            168.0
+          ],
+          [
+            159.0,
+            165.0
+          ]
+        ]
+      },
+      {
+        "text": "14 R = CH2Ph-4-OMe",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            160.0,
+            170.0
+          ],
+          [
+            350.0,
+            173.0
+          ],
+          [
+            350.0,
+            194.0
+          ],
+          [
+            159.0,
+            191.0
+          ]
+        ]
+      },
+      {
+        "text": "15 R = CH2Ph-3-OH",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            160.0,
+            196.0
+          ],
+          [
+            339.0,
+            199.0
+          ],
+          [
+            338.0,
+            220.0
+          ],
+          [
+            160.0,
+            217.0
+          ]
+        ]
+      },
+      {
+        "text": "16 R = CH2Ph-3-OMe",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            160.0,
+            223.0
+          ],
+          [
+            350.0,
+            225.0
+          ],
+          [
+            350.0,
+            246.0
+          ],
+          [
+            160.0,
+            243.0
+          ]
+        ]
+      },
+      {
+        "text": "17 R = CH2CH(Me)2",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            160.0,
+            248.0
+          ],
+          [
+            338.0,
+            251.0
+          ],
+          [
+            337.0,
+            272.0
+          ],
+          [
+            159.0,
+            269.0
+          ]
+        ]
+      },
+      {
+        "text": "26 R = CH2CH2CH(Me)2",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            159.0,
+            275.0
+          ],
+          [
+            374.0,
+            278.0
+          ],
+          [
+            374.0,
+            299.0
+          ],
+          [
+            159.0,
+            295.0
+          ]
+        ]
+      },
+      {
+        "text": "27 R = CH2-cPr",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            159.0,
+            300.0
+          ],
+          [
+            298.0,
+            304.0
+          ],
+          [
+            297.0,
+            325.0
+          ],
+          [
+            158.0,
+            320.0
+          ]
+        ]
+      },
+      {
+        "text": "28 R = CH2-cBu",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            159.0,
+            326.0
+          ],
+          [
+            302.0,
+            330.0
+          ],
+          [
+            301.0,
+            351.0
+          ],
+          [
+            158.0,
+            346.0
+          ]
+        ]
+      },
+      {
+        "text": "29 R = CH2-cyclopentyl",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            159.0,
+            353.0
+          ],
+          [
+            365.0,
+            358.0
+          ],
+          [
+            364.0,
+            378.0
+          ],
+          [
+            158.0,
+            373.0
+          ]
+        ]
+      },
+      {
+        "text": "30 R = CH2-t-Bu",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            159.0,
+            379.0
+          ],
+          [
+            304.0,
+            381.0
+          ],
+          [
+            304.0,
+            402.0
+          ],
+          [
+            159.0,
+            400.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "7",
+        "smiles": "N[C@H](CO)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2OH",
+            "smiles": "[CH2]O"
+          }
+        }
+      },
+      {
+        "cmpd_id": "8",
+        "smiles": "CC(C)[C@@H](N)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "i-Pr",
+            "smiles": "*C(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "9",
+        "smiles": "CC(C)(C)[C@@H](N)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "t-Bu",
+            "smiles": "*C(C)(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "10",
+        "smiles": "CC[C@@H](C)[C@@H](N)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH(R-Me)-Et",
+            "smiles": "*[C@H](C)CC"
+          }
+        }
+      },
+      {
+        "cmpd_id": "11",
+        "smiles": "N[C@H](Cc1ccccc1)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2Ph",
+            "smiles": "*Cc1ccccc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "13",
+        "smiles": "N[C@H](Cc1ccc(O)cc1)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2Ph-4-OH",
+            "smiles": "*Cc1ccc(O)cc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "14",
+        "smiles": "COc1ccc(C[C@@H](N)C(=O)Nc2ccc(-c3ccnc4[nH]ccc34)cc2)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2Ph-4-OMe",
+            "smiles": "*Cc1ccc(OC)cc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "15",
+        "smiles": "N[C@H](Cc1cccc(O)c1)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2Ph-3-OH",
+            "smiles": "*Cc1cccc(O)c1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "16",
+        "smiles": "COc1cccc(C[C@@H](N)C(=O)Nc2ccc(-c3ccnc4[nH]ccc34)cc2)c1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2Ph-3-OMe",
+            "smiles": "*Cc1cccc(OC)c1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "17",
+        "smiles": "CC(C)C[C@@H](N)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2CH(Me)2",
+            "smiles": "[CH2]C(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "26",
+        "smiles": "CC(C)CC[C@@H](N)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2CH2CH(Me)2",
+            "smiles": "[CH2]CC(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "27",
+        "smiles": "N[C@H](CC1CC1)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2-cPr",
+            "smiles": "[CH2]C1CC1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "28",
+        "smiles": "N[C@H](CC1CCC1)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2-cBu",
+            "smiles": "[CH2]C1CCC1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "29",
+        "smiles": "N[C@H](CC1CCCC1)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2-cyclopentyl",
+            "smiles": "[CH2]C1CCCC1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "30",
+        "smiles": "CC(C)(C)C[C@@H](N)C(=O)Nc1ccc(-c2ccnc3[nH]ccc23)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2-t-Bu",
+            "smiles": "[CH2]C(C)(C)C"
+          }
+        }
+      }
+    ]
+  }
+}

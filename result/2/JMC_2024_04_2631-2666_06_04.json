@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_04_2631-2666_06_04.png",
+    "height": 413,
+    "width": 242
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            16,
+            13
+          ],
+          [
+            19,
+            226
+          ],
+          [
+            186,
+            223
+          ],
+          [
+            188,
+            133
+          ],
+          [
+            174,
+            34
+          ],
+          [
+            140,
+            14
+          ]
+        ],
+        "smiles": "*c1c(N)ccc(-c2ccnc3c2ccn3[SH](=O)=O)c1* |$R;;;;;;;;;;;;;;;;;;;;R'$|",
+        "bbox": [
+          11,
+          9,
+          196,
+          227
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "b c",
+        "confidence": 0.6405890583992004,
+        "polygon": [
+          [
+            215.0,
+            118.0
+          ],
+          [
+            242,
+            118.0
+          ],
+          [
+            242,
+            135.0
+          ],
+          [
+            215.0,
+            135.0
+          ]
+        ]
+      },
+      {
+        "text": "70 R = OMe, R' = H",
+        "confidence": 0.996469259262085,
+        "polygon": [
+          [
+            55.0,
+            250.0
+          ],
+          [
+            232.0,
+            254.0
+          ],
+          [
+            232.0,
+            273.0
+          ],
+          [
+            55.0,
+            269.0
+          ]
+        ]
+      },
+      {
+        "text": "71 R = Me, R' = H",
+        "confidence": 0.9964995980262756,
+        "polygon": [
+          [
+            55.0,
+            277.0
+          ],
+          [
+            218.0,
+            279.0
+          ],
+          [
+            218.0,
+            299.0
+          ],
+          [
+            55.0,
+            296.0
+          ]
+        ]
+      },
+      {
+        "text": "72 R = Cl, R' = H",
+        "confidence": 0.98076331615448,
+        "polygon": [
+          [
+            55.0,
+            303.0
+          ],
+          [
+            209.0,
+            306.0
+          ],
+          [
+            208.0,
+            325.0
+          ],
+          [
+            55.0,
+            323.0
+          ]
+        ]
+      },
+      {
+        "text": "73 R = H, R' = Me",
+        "confidence": 0.997827410697937,
+        "polygon": [
+          [
+            55.0,
+            330.0
+          ],
+          [
+            216.0,
+            332.0
+          ],
+          [
+            216.0,
+            352.0
+          ],
+          [
+            55.0,
+            350.0
+          ]
+        ]
+      },
+      {
+        "text": "74 R = H, R' = OMe",
+        "confidence": 0.9959481954574585,
+        "polygon": [
+          [
+            55.0,
+            356.0
+          ],
+          [
+            232.0,
+            358.0
+          ],
+          [
+            231.0,
+            379.0
+          ],
+          [
+            55.0,
+            376.0
+          ]
+        ]
+      },
+      {
+        "text": "75 R = H, R' = Cl",
+        "confidence": 0.9877524971961975,
+        "polygon": [
+          [
+            55.0,
+            383.0
+          ],
+          [
+            210.0,
+            385.0
+          ],
+          [
+            210.0,
+            405.0
+          ],
+          [
+            55.0,
+            402.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "70",
+        "smiles": "[H]c1c(-c2ccnc3c2ccn3[SH](=O)=O)ccc(N)c1OC",
+        "r_groups": {
+          "R": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          },
+          "R'": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "71",
+        "smiles": "[H]c1c(-c2ccnc3c2ccn3[SH](=O)=O)ccc(N)c1C",
+        "r_groups": {
+          "R": {
+            "abbr": "Me",
+            "smiles": "[CH3]"
+          },
+          "R'": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "72",
+        "smiles": "[H]c1c(-c2ccnc3c2ccn3[SH](=O)=O)ccc(N)c1Cl",
+        "r_groups": {
+          "R": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "R'": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "73",
+        "smiles": "[H]c1c(N)ccc(-c2ccnc3c2ccn3[SH](=O)=O)c1C",
+        "r_groups": {
+          "R": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R'": {
+            "abbr": "Me",
+            "smiles": "[CH3]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "74",
+        "smiles": "[H]c1c(N)ccc(-c2ccnc3c2ccn3[SH](=O)=O)c1OC",
+        "r_groups": {
+          "R": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R'": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "75",
+        "smiles": "[H]c1c(N)ccc(-c2ccnc3c2ccn3[SH](=O)=O)c1Cl",
+        "r_groups": {
+          "R": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R'": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          }
+        }
+      }
+    ]
+  }
+}

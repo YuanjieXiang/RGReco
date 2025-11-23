@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_02_1008-1023_01_02.png",
+    "height": 144,
+    "width": 118
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            63
+          ],
+          [
+            57,
+            63
+          ],
+          [
+            71,
+            51
+          ],
+          [
+            104,
+            48
+          ],
+          [
+            102,
+            10
+          ],
+          [
+            6,
+            9
+          ]
+        ],
+        "smiles": "Clc1ccc2nc(Cl)*c2c1 |$;;;;;;;;X;;$|",
+        "bbox": [
+          0,
+          4,
+          116,
+          69
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "3 X= O",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            31.0,
+            79.0
+          ],
+          [
+            85.0,
+            80.0
+          ],
+          [
+            85.0,
+            96.0
+          ],
+          [
+            30.0,
+            95.0
+          ]
+        ]
+      },
+      {
+        "text": "4 X= S",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            30.0,
+            99.0
+          ],
+          [
+            82.0,
+            99.0
+          ],
+          [
+            82.0,
+            115.0
+          ],
+          [
+            30.0,
+            115.0
+          ]
+        ]
+      },
+      {
+        "text": "5 X= NMe",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            31.0,
+            118.0
+          ],
+          [
+            107.0,
+            120.0
+          ],
+          [
+            107.0,
+            137.0
+          ],
+          [
+            30.0,
+            135.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "3",
+        "smiles": "Clc1ccc2nc(Cl)oc2c1",
+        "r_groups": {
+          "X": {
+            "abbr": "O",
+            "smiles": "[O]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "4",
+        "smiles": "Clc1ccc2nc(Cl)sc2c1",
+        "r_groups": {
+          "X": {
+            "abbr": "S",
+            "smiles": "[S]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "5",
+        "smiles": "C[nH]1c(Cl)nc2ccc(Cl)cc21",
+        "r_groups": {
+          "X": {
+            "abbr": "NMe",
+            "smiles": "C[NH]"
+          }
+        }
+      }
+    ]
+  }
+}

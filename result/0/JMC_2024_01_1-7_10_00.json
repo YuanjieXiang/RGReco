@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_1-7_10_00.png",
+    "height": 302,
+    "width": 286
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            138
+          ],
+          [
+            60,
+            212
+          ],
+          [
+            259,
+            208
+          ],
+          [
+            260,
+            41
+          ],
+          [
+            244,
+            19
+          ]
+        ],
+        "smiles": "*c1c(OC)cc(-n2cnc3cc(-c4cnn(CC)c4)ccc32)cc1OC |$R;;;;;;;;;;;;;;;;;;;;;;;;;;$|",
+        "bbox": [
+          6,
+          2,
+          274,
+          217
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "12, R= CH2-OH",
+        "confidence": 0.997032105922699,
+        "polygon": [
+          [
+            118.0,
+            252.0
+          ],
+          [
+            252.0,
+            253.0
+          ],
+          [
+            252.0,
+            275.0
+          ],
+          [
+            118.0,
+            274.0
+          ]
+        ]
+      },
+      {
+        "text": "13, R= COOH",
+        "confidence": 0.9869072437286377,
+        "polygon": [
+          [
+            118.0,
+            278.0
+          ],
+          [
+            240.0,
+            278.0
+          ],
+          [
+            240.0,
+            299.0
+          ],
+          [
+            118.0,
+            299.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "12",
+        "smiles": "CCn1cc(-c2ccc3c(c2)ncn3-c2cc(OC)c(CO)c(OC)c2)cn1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2-OH",
+            "smiles": "[CH2]O"
+          }
+        }
+      },
+      {
+        "cmpd_id": "13",
+        "smiles": "CCn1cc(-c2ccc3c(c2)ncn3-c2cc(OC)c(C(=O)O)c(OC)c2)cn1",
+        "r_groups": {
+          "R": {
+            "abbr": "COOH",
+            "smiles": "O=[C]O"
+          }
+        }
+      }
+    ]
+  }
+}

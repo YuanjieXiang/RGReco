@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_349-379_02_01.png",
+    "height": 248,
+    "width": 277
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            192,
+            6
+          ],
+          [
+            79,
+            8
+          ],
+          [
+            77,
+            108
+          ],
+          [
+            191,
+            109
+          ],
+          [
+            192,
+            6
+          ]
+        ],
+        "smiles": "*c1ccc(F)c(*)c1* |$X;;;;;;;R2;;R1$|",
+        "bbox": [
+          75,
+          1,
+          199,
+          114
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "27a, R1 = Cl, R2 = H, X= Br",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            0.0,
+            134.0
+          ],
+          [
+            241.0,
+            135.0
+          ],
+          [
+            241.0,
+            154.0
+          ],
+          [
+            0.0,
+            153.0
+          ]
+        ]
+      },
+      {
+        "text": "27b, R1 = OCH3, R2 = H, X= Br",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            0.0,
+            162.0
+          ],
+          [
+            274.0,
+            164.0
+          ],
+          [
+            273.0,
+            190.0
+          ],
+          [
+            0.0,
+            186.0
+          ]
+        ]
+      },
+      {
+        "text": "27c, R1 = H, R2 = F, X= MgBr",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            0.0,
+            191.0
+          ],
+          [
+            260.0,
+            192.0
+          ],
+          [
+            260.0,
+            212.0
+          ],
+          [
+            0.0,
+            211.0
+          ]
+        ]
+      },
+      {
+        "text": "27d, R1 = H, R2 = Cl, X = MgBr",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            0.0,
+            219.0
+          ],
+          [
+            268.0,
+            221.0
+          ],
+          [
+            267.0,
+            240.0
+          ],
+          [
+            0.0,
+            239.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "27a",
+        "smiles": "[H]c1c(F)ccc(Br)c1Cl",
+        "r_groups": {
+          "R1": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "X": {
+            "abbr": "Br",
+            "smiles": "[Br]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "27b",
+        "smiles": "[H]c1c(F)ccc(Br)c1OC",
+        "r_groups": {
+          "R1": {
+            "abbr": "OCH3",
+            "smiles": "C[O]"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "X": {
+            "abbr": "Br",
+            "smiles": "[Br]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "27c",
+        "smiles": "[H]c1c([Mg]Br)ccc(F)c1F",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R2": {
+            "abbr": "F",
+            "smiles": "[F]"
+          },
+          "X": {
+            "abbr": "MgBr",
+            "smiles": "[Mg]Br"
+          }
+        }
+      },
+      {
+        "cmpd_id": "27d",
+        "smiles": "[H]c1c([Mg]Br)ccc(F)c1Cl",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R2": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "X": {
+            "abbr": "MgBr",
+            "smiles": "[Mg]Br"
+          }
+        }
+      }
+    ]
+  }
+}

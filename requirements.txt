@@ -1,0 +1,27 @@
+# common
+beautifulsoup4>=4.13.3
+numpy>=1.23.0
+opencv-python-headless>=4.11.0.86
+opencv-contrib-python  # 特殊算子
+transformers==4.42.0
+pillow>=10.2.0
+filetype>=1.2.0
+rdkit
+pandas
+PyQt5
+# YOLO
+ultralytics
+# surya
+pydantic>=2.5.3
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+# molscribe
+albumentations==1.1.0
+timm==0.4.12
+SmilesPE==0.0.3
+OpenNMT-py==2.2.0
+# onnx: math ocr & mol segment
+onnx>=1.17.0
+# math ocr
+optimum>=1.24.0
+pylatexenc>=2.10

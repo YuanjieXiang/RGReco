@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_728-753_10_01.png",
+    "height": 276,
+    "width": 262
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            11,
+            11
+          ],
+          [
+            16,
+            191
+          ],
+          [
+            29,
+            200
+          ],
+          [
+            179,
+            193
+          ],
+          [
+            167,
+            21
+          ],
+          [
+            143,
+            10
+          ]
+        ],
+        "smiles": "*c1cc2c(cnn2C2CCOCC2)c(OCC)n1 |$Ar;;;;;;;;;;;;;;;;;;$|",
+        "bbox": [
+          2,
+          6,
+          186,
+          198
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "a",
+        "confidence": 0.5548301935195923,
+        "polygon": [
+          [
+            219.0,
+            65.0
+          ],
+          [
+            233.0,
+            65.0
+          ],
+          [
+            233.0,
+            78.0
+          ],
+          [
+            219.0,
+            78.0
+          ]
+        ]
+      },
+      {
+        "text": "ZL15, Ar = Ph",
+        "confidence": 0.8472520112991333,
+        "polygon": [
+          [
+            20.0,
+            203.0
+          ],
+          [
+            148.0,
+            204.0
+          ],
+          [
+            148.0,
+            222.0
+          ],
+          [
+            20.0,
+            221.0
+          ]
+        ]
+      },
+      {
+        "text": "ZL16, Ar = 3-thiophene",
+        "confidence": 0.9981276392936707,
+        "polygon": [
+          [
+            20.0,
+            227.0
+          ],
+          [
+            229.0,
+            225.0
+          ],
+          [
+            229.0,
+            244.0
+          ],
+          [
+            20.0,
+            245.0
+          ]
+        ]
+      },
+      {
+        "text": "ZL17, Ar = 2-thiophene",
+        "confidence": 0.9984201788902283,
+        "polygon": [
+          [
+            20.0,
+            250.0
+          ],
+          [
+            229.0,
+            248.0
+          ],
+          [
+            229.0,
+            267.0
+          ],
+          [
+            20.0,
+            269.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "ZL15",
+        "smiles": "CCOc1nc(-c2ccccc2)cc2c1cnn2C1CCOCC1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "Ph",
+            "smiles": "[c]1ccccc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "ZL16",
+        "smiles": "CCOc1nc(-c2ccsc2)cc2c1cnn2C1CCOCC1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "3-thiophene",
+            "smiles": "*c1ccsc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "ZL17",
+        "smiles": "CCOc1nc(-c2cccs2)cc2c1cnn2C1CCOCC1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "2-thiophene",
+            "smiles": "*c1cccs1"
+          }
+        }
+      }
+    ]
+  }
+}

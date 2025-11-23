@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_02_1611-1623_02_01.png",
+    "height": 368,
+    "width": 415
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            13,
+            35
+          ],
+          [
+            13,
+            140
+          ],
+          [
+            33,
+            151
+          ],
+          [
+            328,
+            131
+          ],
+          [
+            389,
+            104
+          ],
+          [
+            386,
+            16
+          ],
+          [
+            62,
+            19
+          ]
+        ],
+        "smiles": "*c1ccc(SCC(=O)Nc2ccc(S(N)(=O)=O)cc2)nn1 |$Ar;;;;;;;;;;;;;;;;;;;;;$|",
+        "is_candidate": true,
+        "bbox": [
+          2,
+          12,
+          406,
+          147
+        ],
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "7a; Ar = C6H5",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            130.0,
+            179.0
+          ],
+          [
+            263.0,
+            181.0
+          ],
+          [
+            263.0,
+            204.0
+          ],
+          [
+            130.0,
+            201.0
+          ]
+        ]
+      },
+      {
+        "text": "7b; Ar = 4-C6H4F",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            130.0,
+            207.0
+          ],
+          [
+            294.0,
+            207.0
+          ],
+          [
+            294.0,
+            230.0
+          ],
+          [
+            130.0,
+            230.0
+          ]
+        ]
+      },
+      {
+        "text": "7c; Ar = 4-C6H4Cl",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            130.0,
+            230.0
+          ],
+          [
+            302.0,
+            233.0
+          ],
+          [
+            303.0,
+            256.0
+          ],
+          [
+            130.0,
+            252.0
+          ]
+        ]
+      },
+      {
+        "text": "7d; Ar = 4-C6H4Br",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            130.0,
+            256.0
+          ],
+          [
+            305.0,
+            259.0
+          ],
+          [
+            306.0,
+            283.0
+          ],
+          [
+            130.0,
+            278.0
+          ]
+        ]
+      },
+      {
+        "text": "7e; Ar = 4-C6H4CH3",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            130.0,
+            281.0
+          ],
+          [
+            319.0,
+            286.0
+          ],
+          [
+            319.0,
+            309.0
+          ],
+          [
+            130.0,
+            303.0
+          ]
+        ]
+      },
+      {
+        "text": "7f; Ar = 4-C6H4OCH3",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            130.0,
+            307.0
+          ],
+          [
+            333.0,
+            312.0
+          ],
+          [
+            332.0,
+            334.0
+          ],
+          [
+            131.0,
+            330.0
+          ]
+        ]
+      },
+      {
+        "text": "7g; Ar = 2-Naphthyl",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            130.0,
+            336.0
+          ],
+          [
+            318.0,
+            335.0
+          ],
+          [
+            318.0,
+            356.0
+          ],
+          [
+            130.0,
+            357.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "7a",
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CSc2ccc(-c3ccccc3)nn2)cc1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "C6H5",
+            "smiles": "*c1ccccc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7b",
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CSc2ccc(-c3ccc(F)cc3)nn2)cc1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "4-C6H4F",
+            "smiles": "*c1ccc(F)cc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7c",
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CSc2ccc(-c3ccc(Cl)cc3)nn2)cc1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "4-C6H4Cl",
+            "smiles": "*c1ccc(Cl)cc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7d",
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CSc2ccc(-c3ccc(Br)cc3)nn2)cc1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "4-C6H4Br",
+            "smiles": "*c1ccc(Br)cc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7e",
+        "smiles": "Cc1ccc(-c2ccc(SCC(=O)Nc3ccc(S(N)(=O)=O)cc3)nn2)cc1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "4-C6H4CH3",
+            "smiles": "*c1ccc(C)cc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7f",
+        "smiles": "COc1ccc(-c2ccc(SCC(=O)Nc3ccc(S(N)(=O)=O)cc3)nn2)cc1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "4-C6H4OCH3",
+            "smiles": "*c1ccc(OC)cc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7g",
+        "smiles": "NS(=O)(=O)c1ccc(NC(=O)CSc2ccc(-c3ccc4ccccc4c3)nn2)cc1",
+        "r_groups": {
+          "Ar": {
+            "abbr": "2-Naphthyl",
+            "smiles": "*c1ccc2ccccc2c1"
+          }
+        }
+      }
+    ]
+  }
+}

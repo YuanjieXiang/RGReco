@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_709-727_02_03.png",
+    "height": 298,
+    "width": 350
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            12,
+            26
+          ],
+          [
+            15,
+            194
+          ],
+          [
+            210,
+            187
+          ],
+          [
+            236,
+            175
+          ],
+          [
+            224,
+            163
+          ],
+          [
+            233,
+            149
+          ],
+          [
+            290,
+            130
+          ],
+          [
+            313,
+            138
+          ],
+          [
+            329,
+            118
+          ],
+          [
+            324,
+            41
+          ],
+          [
+            192,
+            23
+          ]
+        ],
+        "smiles": "*C(O)CN1CCCN(CCSC(c2ccc(F)cc2)c2ccc(F)cc2)CC1 |$R;;;;;;;;;;;;;;;;;;;;;;;;;;;;$|",
+        "bbox": [
+          7,
+          10,
+          336,
+          192
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "11a R = CH3",
+        "confidence": 0.8666725754737854,
+        "polygon": [
+          [
+            121.0,
+            205.0
+          ],
+          [
+            229.0,
+            208.0
+          ],
+          [
+            229.0,
+            226.0
+          ],
+          [
+            121.0,
+            223.0
+          ]
+        ]
+      },
+      {
+        "text": "11b R = CH2Ph",
+        "confidence": 0.9334245324134827,
+        "polygon": [
+          [
+            121.0,
+            226.0
+          ],
+          [
+            251.0,
+            228.0
+          ],
+          [
+            251.0,
+            246.0
+          ],
+          [
+            121.0,
+            244.0
+          ]
+        ]
+      },
+      {
+        "text": "11c R = CH2-p-Ph-OCH3",
+        "confidence": 0.9939232468605042,
+        "polygon": [
+          [
+            121.0,
+            248.0
+          ],
+          [
+            328.0,
+            248.0
+          ],
+          [
+            328.0,
+            267.0
+          ],
+          [
+            121.0,
+            267.0
+          ]
+        ]
+      },
+      {
+        "text": "11d R = CH2-p-Ph-F",
+        "confidence": 0.9859501719474792,
+        "polygon": [
+          [
+            121.0,
+            266.0
+          ],
+          [
+            290.0,
+            270.0
+          ],
+          [
+            290.0,
+            289.0
+          ],
+          [
+            121.0,
+            285.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "11a",
+        "smiles": "CC(O)CN1CCCN(CCSC(c2ccc(F)cc2)c2ccc(F)cc2)CC1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH3",
+            "smiles": "[CH3]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "11b",
+        "smiles": "OC(Cc1ccccc1)CN1CCCN(CCSC(c2ccc(F)cc2)c2ccc(F)cc2)CC1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2Ph",
+            "smiles": "[CH2]c1ccccc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "11c",
+        "smiles": "COc1ccc(CC(O)CN2CCCN(CCSC(c3ccc(F)cc3)c3ccc(F)cc3)CC2)cc1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2-p-Ph-OCH3",
+            "smiles": "*Cc1ccc(OC)cc1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "11d",
+        "smiles": "OC(Cc1ccc(F)cc1)CN1CCCN(CCSC(c2ccc(F)cc2)c2ccc(F)cc2)CC1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2-p-Ph-F",
+            "smiles": "*Cc1ccc(F)cc1"
+          }
+        }
+      }
+    ]
+  }
+}

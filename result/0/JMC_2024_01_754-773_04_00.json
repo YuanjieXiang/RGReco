@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_754-773_04_00.png",
+    "height": 398,
+    "width": 265
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            166,
+            12
+          ],
+          [
+            20,
+            11
+          ],
+          [
+            14,
+            25
+          ],
+          [
+            21,
+            124
+          ],
+          [
+            162,
+            130
+          ]
+        ],
+        "smiles": "*n1cc(C(=O)OC)c2cc(Br)ccc21 |$R4;;;;;;;;;;;;;;$|",
+        "bbox": [
+          13,
+          2,
+          168,
+          147
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "ii",
+        "confidence": 0.6624443531036377,
+        "polygon": [
+          [
+            208.0,
+            58.0
+          ],
+          [
+            222.0,
+            58.0
+          ],
+          [
+            222.0,
+            74.0
+          ],
+          [
+            208.0,
+            74.0
+          ]
+        ]
+      },
+      {
+        "text": "\u0964 \u09a4\u09ac\u09c7-\u0964",
+        "confidence": 0.622563362121582,
+        "polygon": [
+          [
+            77.0,
+            143.0
+          ],
+          [
+            118.0,
+            143.0
+          ],
+          [
+            118.0,
+            156.0
+          ],
+          [
+            77.0,
+            156.0
+          ]
+        ]
+      },
+      {
+        "text": "15a: R4= ethyl",
+        "confidence": 0.9096654057502747,
+        "polygon": [
+          [
+            4.0,
+            191.0
+          ],
+          [
+            145.0,
+            193.0
+          ],
+          [
+            144.0,
+            216.0
+          ],
+          [
+            4.0,
+            214.0
+          ]
+        ]
+      },
+      {
+        "text": "15b: R4= isopropyl",
+        "confidence": 0.9628303647041321,
+        "polygon": [
+          [
+            3.0,
+            224.0
+          ],
+          [
+            185.0,
+            228.0
+          ],
+          [
+            185.0,
+            251.0
+          ],
+          [
+            3.0,
+            247.0
+          ]
+        ]
+      },
+      {
+        "text": "15c: R4= n-propyl",
+        "confidence": 0.9540876746177673,
+        "polygon": [
+          [
+            3.0,
+            256.0
+          ],
+          [
+            177.0,
+            259.0
+          ],
+          [
+            176.0,
+            282.0
+          ],
+          [
+            3.0,
+            279.0
+          ]
+        ]
+      },
+      {
+        "text": "15d: R4= n- butyl",
+        "confidence": 0.9668743014335632,
+        "polygon": [
+          [
+            5.0,
+            290.0
+          ],
+          [
+            168.0,
+            291.0
+          ],
+          [
+            168.0,
+            314.0
+          ],
+          [
+            5.0,
+            313.0
+          ]
+        ]
+      },
+      {
+        "text": "15e: R4= isopentane",
+        "confidence": 0.9700082540512085,
+        "polygon": [
+          [
+            5.0,
+            324.0
+          ],
+          [
+            190.0,
+            328.0
+          ],
+          [
+            189.0,
+            352.0
+          ],
+          [
+            4.0,
+            348.0
+          ]
+        ]
+      },
+      {
+        "text": "15f: R4= 1-methoxypropane",
+        "confidence": 0.997434675693512,
+        "polygon": [
+          [
+            3.0,
+            363.0
+          ],
+          [
+            261.0,
+            367.0
+          ],
+          [
+            261.0,
+            388.0
+          ],
+          [
+            3.0,
+            385.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "15a",
+        "smiles": "CCn1cc(C(=O)OC)c2cc(Br)ccc21",
+        "r_groups": {
+          "R4": {
+            "abbr": "ethyl",
+            "smiles": "*CC"
+          }
+        }
+      },
+      {
+        "cmpd_id": "15b",
+        "smiles": "COC(=O)c1cn(C(C)C)c2ccc(Br)cc12",
+        "r_groups": {
+          "R4": {
+            "abbr": "isopropyl",
+            "smiles": "*C(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "15c",
+        "smiles": "CCCn1cc(C(=O)OC)c2cc(Br)ccc21",
+        "r_groups": {
+          "R4": {
+            "abbr": "n-propyl",
+            "smiles": "*CCC"
+          }
+        }
+      },
+      {
+        "cmpd_id": "15d",
+        "smiles": "CCCCn1cc(C(=O)OC)c2cc(Br)ccc21",
+        "r_groups": {
+          "R4": {
+            "abbr": "n--butyl",
+            "smiles": "*CCCC"
+          }
+        }
+      },
+      {
+        "cmpd_id": "15e",
+        "smiles": "COC(=O)c1cn(CCC(C)C)c2ccc(Br)cc12",
+        "r_groups": {
+          "R4": {
+            "abbr": "isopentane",
+            "smiles": "*CCC(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "15f",
+        "smiles": "CCC(OC)n1cc(C(=O)OC)c2cc(Br)ccc21",
+        "r_groups": {
+          "R4": {
+            "abbr": "1-methoxypropane",
+            "smiles": "*C(CC)OC"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_02_1544-1562_09_02.png",
+    "height": 337,
+    "width": 496
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            21,
+            17
+          ],
+          [
+            26,
+            148
+          ],
+          [
+            394,
+            141
+          ],
+          [
+            399,
+            42
+          ],
+          [
+            368,
+            17
+          ],
+          [
+            21,
+            17
+          ]
+        ],
+        "smiles": "*c1*c2c(cc3c(=O)n(CC(=O)N[C@@H]4CCCN(*)C4)nc(*)n32)s1 |$X;;A;;;;;;;;;;;;;;;;;R2;;;;R1;;$|",
+        "is_candidate": true,
+        "bbox": [
+          21,
+          4,
+          401,
+          154
+        ],
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "X = Cl, A = CH, R1 = i-Pr, R2 = Boc: 51",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            7.0,
+            189.0
+          ],
+          [
+            384.0,
+            188.0
+          ],
+          [
+            384.0,
+            209.0
+          ],
+          [
+            7.0,
+            211.0
+          ]
+        ]
+      },
+      {
+        "text": "X = Cl, A = CH, R1 = i-Pr, R2 = H: 16",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            7.0,
+            217.0
+          ],
+          [
+            364.0,
+            217.0
+          ],
+          [
+            364.0,
+            238.0
+          ],
+          [
+            7.0,
+            238.0
+          ]
+        ]
+      },
+      {
+        "text": "X = Cl, A = CH, R1 = i-Pr, R2 = Me: 17",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            7.0,
+            246.0
+          ],
+          [
+            378.0,
+            246.0
+          ],
+          [
+            378.0,
+            267.0
+          ],
+          [
+            7.0,
+            267.0
+          ]
+        ]
+      },
+      {
+        "text": "X = Cl, A = CH, R1 =Me2COH, R2 = Me: NP3-562",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            8.0,
+            275.0
+          ],
+          [
+            491.0,
+            275.0
+          ],
+          [
+            491.0,
+            296.0
+          ],
+          [
+            8.0,
+            296.0
+          ]
+        ]
+      },
+      {
+        "text": "X = H, A = N, R1 = i-Pr, R2 = Me: 21",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            7.0,
+            303.0
+          ],
+          [
+            357.0,
+            305.0
+          ],
+          [
+            357.0,
+            325.0
+          ],
+          [
+            7.0,
+            323.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "16",
+        "smiles": "[H]N1CCC[C@@H](NC(=O)Cn2nc(C(C)C)n3c(cc4sc(Cl)cc43)c2=O)C1",
+        "r_groups": {
+          "X": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "A": {
+            "abbr": "CH",
+            "smiles": "[CH]"
+          },
+          "R1": {
+            "abbr": "i-Pr",
+            "smiles": "*C(C)C"
+          },
+          "R2": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "17",
+        "smiles": "CC(C)c1nn(CC(=O)N[C@@H]2CCCN(C)C2)c(=O)c2cc3sc(Cl)cc3n12",
+        "r_groups": {
+          "X": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "A": {
+            "abbr": "CH",
+            "smiles": "[CH]"
+          },
+          "R1": {
+            "abbr": "i-Pr",
+            "smiles": "*C(C)C"
+          },
+          "R2": {
+            "abbr": "Me",
+            "smiles": "*C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "21",
+        "smiles": "[H]c1nc2c(cc3c(=O)n(CC(=O)N[C@@H]4CCCN(C)C4)nc(C(C)C)n32)s1",
+        "r_groups": {
+          "X": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "A": {
+            "abbr": "N",
+            "smiles": "[N]"
+          },
+          "R1": {
+            "abbr": "i-Pr",
+            "smiles": "*C(C)C"
+          },
+          "R2": {
+            "abbr": "Me",
+            "smiles": "*C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "51",
+        "smiles": "CC(C)c1nn(CC(=O)N[C@@H]2CCCN(C(=O)OC(C)(C)C)C2)c(=O)c2cc3sc(Cl)cc3n12",
+        "r_groups": {
+          "X": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "A": {
+            "abbr": "CH",
+            "smiles": "[CH]"
+          },
+          "R1": {
+            "abbr": "i-Pr",
+            "smiles": "*C(C)C"
+          },
+          "R2": {
+            "abbr": "Boc",
+            "smiles": "*C(=O)OC(C)(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "NP3-562",
+        "smiles": "CN1CCC[C@@H](NC(=O)Cn2nc(C(C)(C)O)n3c(cc4sc(Cl)cc43)c2=O)C1",
+        "r_groups": {
+          "X": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "A": {
+            "abbr": "CH",
+            "smiles": "[CH]"
+          },
+          "R1": {
+            "abbr": "Me2COH",
+            "smiles": "C[C](C)O"
+          },
+          "R2": {
+            "abbr": "Me",
+            "smiles": "*C"
+          }
+        }
+      }
+    ]
+  }
+}

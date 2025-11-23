@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_402-419_04_01.png",
+    "height": 164,
+    "width": 267
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            2,
+            12
+          ],
+          [
+            9,
+            87
+          ],
+          [
+            45,
+            97
+          ],
+          [
+            239,
+            93
+          ],
+          [
+            231,
+            11
+          ]
+        ],
+        "smiles": "*c1ccc(NC(=O)Oc2ccccc2)cc1 |$R1;;;;;;;;;;;;;;;;$|",
+        "bbox": [
+          1,
+          2,
+          241,
+          99
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "30: R1=F, 85%",
+        "confidence": 0.9070054292678833,
+        "polygon": [
+          [
+            68.0,
+            116.0
+          ],
+          [
+            200.0,
+            113.0
+          ],
+          [
+            200.0,
+            133.0
+          ],
+          [
+            69.0,
+            136.0
+          ]
+        ]
+      },
+      {
+        "text": "31: R1=COOtBu, 93%",
+        "confidence": 0.9638397097587585,
+        "polygon": [
+          [
+            68.0,
+            137.0
+          ],
+          [
+            265.0,
+            136.0
+          ],
+          [
+            265.0,
+            156.0
+          ],
+          [
+            69.0,
+            157.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "30",
+        "smiles": "O=C(Nc1ccc(F)cc1)Oc1ccccc1",
+        "r_groups": {
+          "R1": {
+            "abbr": "F",
+            "smiles": "[F]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "31",
+        "smiles": "CC(C)(C)OC(=O)c1ccc(NC(=O)Oc2ccccc2)cc1",
+        "r_groups": {
+          "R1": {
+            "abbr": "COOtBu",
+            "smiles": "CC(C)(C)O[C]=O"
+          }
+        }
+      }
+    ]
+  }
+}

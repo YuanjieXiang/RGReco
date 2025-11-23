@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_289-321_02_03.png",
+    "height": 292,
+    "width": 331
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            287,
+            14
+          ],
+          [
+            58,
+            23
+          ],
+          [
+            45,
+            55
+          ],
+          [
+            45,
+            202
+          ],
+          [
+            67,
+            208
+          ],
+          [
+            94,
+            188
+          ],
+          [
+            235,
+            203
+          ],
+          [
+            265,
+            192
+          ],
+          [
+            284,
+            137
+          ],
+          [
+            276,
+            92
+          ]
+        ],
+        "smiles": "*c1ccc(C(=O)Oc2c(-c3ccc(*)cc3)oc3cc(*)cc(*)c3c2=O)cc1 |$R3;;;;;;;;;;;;;;R3;;;;;;;R1;;;R2;;;;;$|",
+        "bbox": [
+          39,
+          5,
+          294,
+          198
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "7a R1 = OMe, R2 = OMe, R3 = Cl",
+        "confidence": 0.9383643865585327,
+        "polygon": [
+          [
+            6.0,
+            201.0
+          ],
+          [
+            222.0,
+            200.0
+          ],
+          [
+            222.0,
+            216.0
+          ],
+          [
+            6.0,
+            218.0
+          ]
+        ]
+      },
+      {
+        "text": "(60% o3s)",
+        "confidence": 0.5852243304252625,
+        "polygon": [
+          [
+            247.0,
+            203.0
+          ],
+          [
+            319.0,
+            203.0
+          ],
+          [
+            319.0,
+            217.0
+          ],
+          [
+            247.0,
+            217.0
+          ]
+        ]
+      },
+      {
+        "text": "7ba R1 = OBn, R2 = OMe, R3 = F",
+        "confidence": 0.9672461152076721,
+        "polygon": [
+          [
+            6.0,
+            222.0
+          ],
+          [
+            221.0,
+            221.0
+          ],
+          [
+            221.0,
+            237.0
+          ],
+          [
+            6.0,
+            238.0
+          ]
+        ]
+      },
+      {
+        "text": "(70% 03s)",
+        "confidence": 0.5796157717704773,
+        "polygon": [
+          [
+            247.0,
+            224.0
+          ],
+          [
+            319.0,
+            224.0
+          ],
+          [
+            319.0,
+            238.0
+          ],
+          [
+            247.0,
+            238.0
+          ]
+        ]
+      },
+      {
+        "text": "7bb R1 = OBn, R2 = OMe, R3 = Br",
+        "confidence": 0.9517540335655212,
+        "polygon": [
+          [
+            6.0,
+            242.0
+          ],
+          [
+            231.0,
+            242.0
+          ],
+          [
+            231.0,
+            258.0
+          ],
+          [
+            6.0,
+            258.0
+          ]
+        ]
+      },
+      {
+        "text": "(76%)",
+        "confidence": 0.6057206392288208,
+        "polygon": [
+          [
+            247.0,
+            244.0
+          ],
+          [
+            306.0,
+            244.0
+          ],
+          [
+            306.0,
+            258.0
+          ],
+          [
+            247.0,
+            258.0
+          ]
+        ]
+      },
+      {
+        "text": "7bc R1 = OBn, R2 = OMe, R3 = OMe (73% o3s)",
+        "confidence": 0.98505038022995,
+        "polygon": [
+          [
+            6.0,
+            262.0
+          ],
+          [
+            319.0,
+            262.0
+          ],
+          [
+            319.0,
+            279.0
+          ],
+          [
+            6.0,
+            279.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "7a",
+        "smiles": "COc1cc(OC)c2c(=O)c(OC(=O)c3ccc(Cl)cc3)c(-c3ccc(Cl)cc3)oc2c1",
+        "r_groups": {
+          "R1": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          },
+          "R2": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          },
+          "R3": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7ba",
+        "smiles": "COc1cc(OCc2ccccc2)cc2oc(-c3ccc(F)cc3)c(OC(=O)c3ccc(F)cc3)c(=O)c12",
+        "r_groups": {
+          "R1": {
+            "abbr": "OBn",
+            "smiles": "[O]Cc1ccccc1"
+          },
+          "R2": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          },
+          "R3": {
+            "abbr": "F",
+            "smiles": "[F]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7bb",
+        "smiles": "COc1cc(OCc2ccccc2)cc2oc(-c3ccc(Br)cc3)c(OC(=O)c3ccc(Br)cc3)c(=O)c12",
+        "r_groups": {
+          "R1": {
+            "abbr": "OBn",
+            "smiles": "[O]Cc1ccccc1"
+          },
+          "R2": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          },
+          "R3": {
+            "abbr": "Br",
+            "smiles": "[Br]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7bc",
+        "smiles": "COc1ccc(C(=O)Oc2c(-c3ccc(OC)cc3)oc3cc(OCc4ccccc4)cc(OC)c3c2=O)cc1",
+        "r_groups": {
+          "R1": {
+            "abbr": "OBn",
+            "smiles": "[O]Cc1ccccc1"
+          },
+          "R2": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          },
+          "R3": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_02_1008-1023_01_00.png",
+    "height": 202,
+    "width": 315
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            2,
+            22
+          ],
+          [
+            5,
+            141
+          ],
+          [
+            190,
+            141
+          ],
+          [
+            305,
+            123
+          ],
+          [
+            305,
+            60
+          ],
+          [
+            230,
+            53
+          ],
+          [
+            175,
+            21
+          ],
+          [
+            2,
+            22
+          ]
+        ],
+        "smiles": "N#CCc1ccc(OCC(O)CNc2*c3cc(Cl)ccc3n2)cc1 |$;;;;;;;;;;;;;;X;;;;;;;;;;$|",
+        "bbox": [
+          0,
+          7,
+          314,
+          139
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "6a  X= NMe",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            166.0,
+            141.0
+          ],
+          [
+            258.0,
+            141.0
+          ],
+          [
+            258.0,
+            160.0
+          ],
+          [
+            166.0,
+            160.0
+          ]
+        ]
+      },
+      {
+        "text": "7   X= O",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            165.0,
+            161.0
+          ],
+          [
+            226.0,
+            161.0
+          ],
+          [
+            226.0,
+            180.0
+          ],
+          [
+            165.0,
+            180.0
+          ]
+        ]
+      },
+      {
+        "text": "8  X= S",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            165.0,
+            181.0
+          ],
+          [
+            224.0,
+            181.0
+          ],
+          [
+            224.0,
+            200.0
+          ],
+          [
+            165.0,
+            200.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "6a",
+        "smiles": "C[nH]1c(NCC(O)COc2ccc(CC#N)cc2)nc2ccc(Cl)cc21",
+        "r_groups": {
+          "X": {
+            "abbr": "NMe",
+            "smiles": "C[NH]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "7",
+        "smiles": "N#CCc1ccc(OCC(O)CNc2nc3ccc(Cl)cc3o2)cc1",
+        "r_groups": {
+          "X": {
+            "abbr": "O",
+            "smiles": "[O]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "8",
+        "smiles": "N#CCc1ccc(OCC(O)CNc2nc3ccc(Cl)cc3s2)cc1",
+        "r_groups": {
+          "X": {
+            "abbr": "S",
+            "smiles": "[S]"
+          }
+        }
+      }
+    ]
+  }
+}

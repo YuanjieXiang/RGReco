@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_81-109_03_02.png",
+    "height": 315,
+    "width": 306
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            13,
+            13
+          ],
+          [
+            14,
+            126
+          ],
+          [
+            27,
+            174
+          ],
+          [
+            94,
+            196
+          ],
+          [
+            248,
+            193
+          ],
+          [
+            272,
+            174
+          ],
+          [
+            281,
+            62
+          ],
+          [
+            258,
+            14
+          ]
+        ],
+        "smiles": "*NC(=O)c1cc(CO)cc([N+](=O)[O-])c1 |$R;;;;;;;;;;;;;;$|",
+        "bbox": [
+          5,
+          4,
+          299,
+          198
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "19: R = H",
+        "confidence": 0.9351888298988342,
+        "polygon": [
+          [
+            70.0,
+            242.0
+          ],
+          [
+            194.0,
+            241.0
+          ],
+          [
+            194.0,
+            269.0
+          ],
+          [
+            70.0,
+            270.0
+          ]
+        ]
+      },
+      {
+        "text": "20: R = CH2Ph",
+        "confidence": 0.9920505285263062,
+        "polygon": [
+          [
+            69.0,
+            274.0
+          ],
+          [
+            258.0,
+            275.0
+          ],
+          [
+            257.0,
+            303.0
+          ],
+          [
+            69.0,
+            302.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "19",
+        "smiles": "[H]NC(=O)c1cc(CO)cc([N+](=O)[O-])c1",
+        "r_groups": {
+          "R": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "20",
+        "smiles": "O=C(NCc1ccccc1)c1cc(CO)cc([N+](=O)[O-])c1",
+        "r_groups": {
+          "R": {
+            "abbr": "CH2Ph",
+            "smiles": "[CH2]c1ccccc1"
+          }
+        }
+      }
+    ]
+  }
+}

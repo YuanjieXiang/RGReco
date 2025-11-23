@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_02_1544-1562_08_00.png",
+    "height": 384,
+    "width": 317
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            17,
+            17
+          ],
+          [
+            25,
+            143
+          ],
+          [
+            88,
+            154
+          ],
+          [
+            211,
+            148
+          ],
+          [
+            208,
+            42
+          ],
+          [
+            198,
+            16
+          ],
+          [
+            17,
+            17
+          ]
+        ],
+        "smiles": "*c1cc2c(cc3c(=O)[nH]nc(*)n32)s1 |$X;;;;;;;;;;;;R3;;$|",
+        "is_candidate": true,
+        "bbox": [
+          17,
+          4,
+          216,
+          157
+        ],
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "X = H, R3 = H: 24",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            19.0,
+            180.0
+          ],
+          [
+            197.0,
+            180.0
+          ],
+          [
+            197.0,
+            200.0
+          ],
+          [
+            19.0,
+            200.0
+          ]
+        ]
+      },
+      {
+        "text": "X = H, R3 = n-Pr: 25",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            19.0,
+            209.0
+          ],
+          [
+            221.0,
+            210.0
+          ],
+          [
+            221.0,
+            231.0
+          ],
+          [
+            19.0,
+            230.0
+          ]
+        ]
+      },
+      {
+        "text": "X = H, R3 = i-Pr: 27",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            19.0,
+            238.0
+          ],
+          [
+            214.0,
+            239.0
+          ],
+          [
+            214.0,
+            259.0
+          ],
+          [
+            19.0,
+            259.0
+          ]
+        ]
+      },
+      {
+        "text": "X = H, R3 = cPr: 26",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            19.0,
+            268.0
+          ],
+          [
+            213.0,
+            268.0
+          ],
+          [
+            213.0,
+            288.0
+          ],
+          [
+            19.0,
+            288.0
+          ]
+        ]
+      },
+      {
+        "text": "X = H, R3 = (CH3)2C-OH: 31",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            19.0,
+            297.0
+          ],
+          [
+            302.0,
+            296.0
+          ],
+          [
+            302.0,
+            317.0
+          ],
+          [
+            19.0,
+            319.0
+          ]
+        ]
+      },
+      {
+        "text": "X = F, R3 = i-Pr: 36",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            19.0,
+            326.0
+          ],
+          [
+            212.0,
+            326.0
+          ],
+          [
+            212.0,
+            347.0
+          ],
+          [
+            19.0,
+            347.0
+          ]
+        ]
+      },
+      {
+        "text": "X = Cl, R3 = i-Pr: 28",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            19.0,
+            355.0
+          ],
+          [
+            218.0,
+            356.0
+          ],
+          [
+            218.0,
+            377.0
+          ],
+          [
+            19.0,
+            376.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "24",
+        "smiles": "[H]c1cc2c(cc3c(=O)[nH]nc([H])n32)s1",
+        "r_groups": {
+          "X": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R3": {
+            "abbr": "H",
+            "smiles": "[H]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "25",
+        "smiles": "[H]c1cc2c(cc3c(=O)[nH]nc(CCC)n32)s1",
+        "r_groups": {
+          "X": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R3": {
+            "abbr": "n-Pr",
+            "smiles": "*CCC"
+          }
+        }
+      },
+      {
+        "cmpd_id": "26",
+        "smiles": "[H]c1cc2c(cc3c(=O)[nH]nc(C4CC4)n32)s1",
+        "r_groups": {
+          "X": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R3": {
+            "abbr": "cPr",
+            "smiles": "*C1CC1"
+          }
+        }
+      },
+      {
+        "cmpd_id": "27",
+        "smiles": "[H]c1cc2c(cc3c(=O)[nH]nc(C(C)C)n32)s1",
+        "r_groups": {
+          "X": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R3": {
+            "abbr": "i-Pr",
+            "smiles": "*C(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "28",
+        "smiles": "CC(C)c1n[nH]c(=O)c2cc3sc(Cl)cc3n12",
+        "r_groups": {
+          "X": {
+            "abbr": "Cl",
+            "smiles": "[Cl]"
+          },
+          "R3": {
+            "abbr": "i-Pr",
+            "smiles": "*C(C)C"
+          }
+        }
+      },
+      {
+        "cmpd_id": "31",
+        "smiles": "[H]c1cc2c(cc3c(=O)[nH]nc(C(C)(C)O)n32)s1",
+        "r_groups": {
+          "X": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R3": {
+            "abbr": "(CH3)2C-OH",
+            "smiles": "C[C](C)O"
+          }
+        }
+      },
+      {
+        "cmpd_id": "36",
+        "smiles": "CC(C)c1n[nH]c(=O)c2cc3sc(F)cc3n12",
+        "r_groups": {
+          "X": {
+            "abbr": "F",
+            "smiles": "[F]"
+          },
+          "R3": {
+            "abbr": "i-Pr",
+            "smiles": "*C(C)C"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "image_path": "images\\JMC_2024_01_728-753_11_01.png",
+    "height": 241,
+    "width": 264
+  },
+  "mol_res": {
+    "structures": [
+      {
+        "polygon": [
+          [
+            20,
+            11
+          ],
+          [
+            15,
+            120
+          ],
+          [
+            30,
+            125
+          ],
+          [
+            68,
+            139
+          ],
+          [
+            168,
+            142
+          ],
+          [
+            257,
+            139
+          ],
+          [
+            254,
+            114
+          ],
+          [
+            74,
+            3
+          ]
+        ],
+        "smiles": "*N(*)C(=O)Cn1ncc2c(OCC)nc(Cl)cc21 |$R1;;R2;;;;;;;;;;;;;;;;$|",
+        "bbox": [
+          11,
+          3,
+          256,
+          140
+        ],
+        "is_candidate": true,
+        "cut_det": []
+      }
+    ]
+  },
+  "table_res": {
+    "table_box": {},
+    "table_rec": {
+      "cells": [],
+      "rows": [],
+      "cols": []
+    }
+  },
+  "text_res": {
+    "text_lines": [
+      {
+        "text": "ZL50, R1 = H, R2 = Me",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            9.0,
+            154.0
+          ],
+          [
+            213.0,
+            153.0
+          ],
+          [
+            213.0,
+            174.0
+          ],
+          [
+            9.0,
+            175.0
+          ]
+        ]
+      },
+      {
+        "text": "ZL51, R1 = H, R2 = OMe",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            9.0,
+            182.0
+          ],
+          [
+            229.0,
+            180.0
+          ],
+          [
+            229.0,
+            202.0
+          ],
+          [
+            9.0,
+            204.0
+          ]
+        ]
+      },
+      {
+        "text": "ZL52, R1 = Me, R2 = OH",
+        "confidence": 1.0,
+        "polygon": [
+          [
+            10.0,
+            210.0
+          ],
+          [
+            229.0,
+            208.0
+          ],
+          [
+            229.0,
+            231.0
+          ],
+          [
+            10.0,
+            232.0
+          ]
+        ]
+      }
+    ]
+  },
+  "compounds": {
+    "cmpds": [
+      {
+        "cmpd_id": "ZL50",
+        "smiles": "[H]N(C)C(=O)Cn1ncc2c(OCC)nc(Cl)cc21",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R2": {
+            "abbr": "Me",
+            "smiles": "[CH3]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "ZL51",
+        "smiles": "[H]N(OC)C(=O)Cn1ncc2c(OCC)nc(Cl)cc21",
+        "r_groups": {
+          "R1": {
+            "abbr": "H",
+            "smiles": "[H]"
+          },
+          "R2": {
+            "abbr": "OMe",
+            "smiles": "C[O]"
+          }
+        }
+      },
+      {
+        "cmpd_id": "ZL52",
+        "smiles": "CCOc1nc(Cl)cc2c1cnn2CC(=O)N(C)O",
+        "r_groups": {
+          "R1": {
+            "abbr": "Me",
+            "smiles": "[CH3]"
+          },
+          "R2": {
+            "abbr": "OH",
+            "smiles": "[OH]"
+          }
+        }
+      }
+    ]
+  }
+}
