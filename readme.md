@@ -28,8 +28,8 @@ pip install onnxruntime>=1.21
 **Step 2: Clone the repository**
 
 ```
-git clone https://github.com/yuanjiexiang/rgreco.git
-cd rgreco
+git clone https://github.com/YuanjieXiang/RGReco.git
+cd RGReco
 ```
 
 **step3: install the package and its dependencies**
