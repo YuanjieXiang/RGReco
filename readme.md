@@ -2,7 +2,7 @@
 
 This is the repository for RGReco, A Unified Framework for Automated R-Group Recognition in Chemical Literature Images!
 
-![RGReco task](icon/RGReco task.PNG)
+[![RGReco task](icon/RGReco task.PNG)](https://github.com/YuanjieXiang/RGReco/blob/main/icon/RGReco%20task.PNG?raw=true)
 
 ## Quick Start
 
