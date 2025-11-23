@@ -59,7 +59,8 @@ Model weights and tools can be downloaded from:
 
 | Task                                                   | Description                                                  |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
-| Molecule Segmentation                                  | Downloaded from [RGReco_Det](https://huggingface.co/yuanjier/RGreco_Det) |
+| Molecule Segmentation                                  | Using ONNX format for inference to minimize dependencies. 
+Original model from: [DECIMER-Segmentation](https://github.com/Kohulan/DECIMER-Image-Segmentation), Downloaded from [RGReco_Det](https://huggingface.co/yuanjier/RGreco_Det) |
 | Attachment Point and  Substituent Identifier Detection | Downloaded from [RGReco_Det](https://huggingface.co/yuanjier/RGreco_Det) |
 | Optical Chemical  Structure Recognition                | Downloaded from [MolScribe](https://github.com/thomas0809/MolScribe) |
 | Document Content Recognition                           | Downloaded from [Surya](https://github.com/datalab-to/surya) |
