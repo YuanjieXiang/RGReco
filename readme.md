@@ -1,6 +1,7 @@
 # RGReco
 
-This is the repository for RGReco, A Unified Framework for Automated R-Group Recognition in Chemical Literature Images!
+This is the repository for RGReco, A Unified method for Automated R-Group Recognition in Chemical Literature Images!
+
 
 <img width="3197" height="1998" alt="image" src="https://github.com/user-attachments/assets/82eba44d-6a81-488b-800b-f6669fa92253" />
 
@@ -65,3 +66,5 @@ Model weights and tools can be downloaded from:
 | Document Content Recognition                           | Downloaded from [Surya](https://github.com/datalab-to/surya) |
 | IUPAC Names  Recognition                               | Downloaded from [OPSIN](https://github.com/dan2097/opsin)    |
 
+### Data
+The relevant test data can be found at: https://huggingface.co/datasets/yuanjier/RGReco.
