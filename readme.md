@@ -67,4 +67,4 @@ Model weights and tools can be downloaded from:
 | IUPAC Names  Recognition                               | Downloaded from [OPSIN](https://github.com/dan2097/opsin)    |
 
 ### Data
-The relevant test data can be found at: https://huggingface.co/datasets/yuanjier/RGReco.
+The relevant dataset can be found at: https://huggingface.co/datasets/yuanjier/RGReco.
