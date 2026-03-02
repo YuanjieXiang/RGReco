@@ -5,18 +5,21 @@ from src.external.py2opsin import py2opsin
 from .formatting import format
 from src.external.molscribe.chemistry import _expand_carbon, _parse_formula, _condensed_formula_list_to_smiles
 from src.settings import settings
+from functools import lru_cache
+import csv
+import os
 
 log = logging.getLogger(__name__)
 
-
+@lru_cache(maxsize=None)
 def parse(raw_group_text: str):
     """解析R基团字符的对外接口，输入R基团字符，返回对应的SMILES字符串，如果解析失败返回None"""
     raw_group_text = raw_group_text.strip()
-    if not raw_group_text or raw_group_text in ('-', '/', '\\', '_', '—'):
+    if not raw_group_text or (len(raw_group_text) == 1 and not raw_group_text.isalnum()):
         return "[H]"  # 字符串为空时，返回氢原子
 
     if raw_group_text in settings.ABBR_DICT:
-        return remove_r_sym_in_smile(settings.ABBR_DICT[raw_group_text])
+        return settings.ABBR_DICT[raw_group_text]
 
     chem_groups = format(raw_group_text)
     res = _parse(chem_groups)
@@ -26,6 +29,17 @@ def parse(raw_group_text: str):
         # with open('parse_failed.log', 'a', encoding='utf-8') as f:
         #     f.write(f'{raw_group_text}\n')
         return None
+
+        settings.ABBR_DICT[raw_group_text] = res
+    else:
+        csv_file_path = settings.ABBR_DICT_FILE_PATH 
+    
+        file_exists = os.path.isfile(csv_file_path)
+        with open(csv_file_path, 'a', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            if not file_exists or os.path.getsize(csv_file_path) == 0:
+                writer.writerow(['abbreviation', 'smiles', 'population'])
+            writer.writerow([raw_group_text, res, 1])
     return res
 
 
@@ -177,19 +191,17 @@ def iupac2smiles(iupac_str, use_web_api=settings.USE_OPSIN_WEB_API, is_rgroup: b
     # 新增，处理IUPAC基团命名不规范的问题
     _convert_func = _opsin_web_api if use_web_api else _opsin_py_api
 
-    smiles = None
+    smiles = _convert_func(iupac_str)
+    
     # 第一种情况，应该加取代基后缀，表示这是一个取代基
-    if is_rgroup and 'yl' not in iupac_str:
+    if (not smiles and '*' not in smiles) and (is_rgroup and 'yl' not in iupac_str):
         yl_iupac_str = iupac_str + '-yl'
         smiles = _convert_func(yl_iupac_str)
 
-    if not smiles:
-        smiles = _convert_func(iupac_str)
-
-    # 第二种情况，没有主结构导致位置和手性信息无效
-    if not smiles and 0 <= iupac_str.find('-') < 3:
-        iupac_str = iupac_str.split('-', 1)[1]
-        smiles = _convert_func(iupac_str)
+    # # 第二种情况，没有主结构导致位置和手性信息无效
+    # if not smiles and 0 <= iupac_str.find('-') < 3:
+    #     iupac_str = iupac_str.split('-', 1)[1]
+    #     smiles = _convert_func(iupac_str)
 
     if not smiles:
         log.debug("Failed to convert IUPAC name to SMILES string")

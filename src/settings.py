@@ -27,12 +27,13 @@ def load_abbreviation_to_smiles(csv_path):
 
 class Setting(BaseSettings):
     BASE_DIR: str = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 本文件的上层目录
+    ABBR_DICT_FILE: str = os.path.join(BASE_DIR, 'data/abbreviations.csv')
 
     # result
     RESULT_DIR: str = os.path.join(BASE_DIR, 'result')
 
     # GENERAL
-    RUNNING_MODE: str = "test"  # ui | cli | test, using in app.py
+    RUNNING_MODE: str = "cli"  # ui | cli | test, using in app.py
     TORCH_DEVICE: Optional[str] = 'cuda'  # None | cpu | cuda
     ONNX_DEVICE: Optional[str] = 'cuda'  # None | cpu | cuda
     # CLI MODE (single image)
@@ -71,7 +72,8 @@ class Setting(BaseSettings):
     USE_OPSIN_WEB_API: bool = False
 
     # abbreviation dictionary
-    ABBR_DICT: ClassVar[dict] = load_abbreviation_to_smiles(os.path.join(BASE_DIR, 'data/abbreviations.csv'))
+    ABBR_DICT_FILE_PATH: str = ABBR_DICT_FILE
+    ABBR_DICT: ClassVar[dict] = load_abbreviation_to_smiles(ABBR_DICT_FILE)
 
     @computed_field
     def TORCH_DEVICE_MODEL(self) -> str:
