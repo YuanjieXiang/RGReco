@@ -56,7 +56,7 @@ python app.py
 
 ### Model
 
-Model weights and tools can be downloaded from: 
+Model weights and tools can be downloaded from https://drive.google.com/drive/folders/1XYlw45Doy_L5hUVYucUxBvyoej8by25n?usp=drive_link: 
 
 | Task                                                   | Description                                                  |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
