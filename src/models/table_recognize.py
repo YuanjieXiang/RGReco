@@ -11,7 +11,7 @@ from .common import BaseModel, ModelConfig
 class TableRecognizer(BaseModel):
     def __init__(self, config: ModelConfig):
         self.config = config
-        self.model = TableRecPredictor(checkpoint=config.model_path, device=config.device, dtype=torch.float16)
+        self.model = TableRecPredictor(checkpoint=config.model_path, device=config.device, dtype=torch.float32)
 
     def predict(self, images: List[Image.Image], **kwargs) -> List[TableResult]:
         return self.model(images)
