@@ -6,7 +6,7 @@ opencv-contrib-python  # 特殊算子
 transformers==4.42.0
 pillow>=10.2.0
 filetype>=1.2.0
-rdkit
+rdkit==2024.9.6
 pandas
 PyQt5
 # YOLO
